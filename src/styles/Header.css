@@ -1,0 +1,76 @@
+.logo,a{
+    cursor: pointer;
+}
+
+header{
+    background: url(../images//hero-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px ;
+    font-family: "Nunito";
+}
+
+span{
+    font-size: 45px;
+    font-weight: 600;
+    color: #0C7FFF;
+    
+}
+
+span a{   
+    position: absolute;
+    top: 42px;
+    left: 80px;
+    font-size: 27px;
+    font-weight: 800;
+    color: #013289;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600; 
+    font-size: 23px;
+}
+
+
+.nav-links li a{
+    text-decoration: none;
+    color: #013289;
+}
+.nav-links li a:hover{
+    color: #4154f1;
+    transition: .4s;
+    transform: scale(1);
+}
+.btn-1{
+    cursor: pointer;
+    font-family: "Nunito";
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    background: #4154f1;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.btn-1:hover{
+    background: #013289;
+    transition: .4s;
+    
+}
